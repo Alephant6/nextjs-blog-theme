@@ -4,10 +4,10 @@ export const getGlobalData = () => {
     : 'Alephant';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Blog';
+    : 'Nothing But Myself';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'After you see the world clearly, you will find ways to make yourself better';
 
   return {
     name,
